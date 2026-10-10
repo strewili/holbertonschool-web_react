@@ -1,0 +1,21 @@
+{
+  "compilerOptions": {
+    "target": "es5",
+    "module": "none",
+    "lib": ["ES2020", "DOM"],
+    "outFile": "./dist/bundle.js",
+    "sourceMap": true,
+    "noImplicitAny": true,
+    "strict": true,
+    "forceConsistentCasingInFileNames": true,
+    "skipLibCheck": true
+  },
+  "files": [
+    "js/subjects/Teacher.ts",
+    "js/subjects/Subject.ts",
+    "js/subjects/Cpp.ts",
+    "js/subjects/React.ts",
+    "js/subjects/Java.ts",
+    "js/main.ts"
+  ]
+}
